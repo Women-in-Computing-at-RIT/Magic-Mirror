@@ -1,2 +1,5 @@
 # Magic-Mirror
-WiC Projects Committee 2017-2018 Project. More to come!
+WiC Projects Committee 2017-2018 Project.
+
+## Introduction
+This year's project is a magic mirror or smart mirror. It functions as a mirror as it has a reflective surface but also includes helpful information as you get ready for your day. As for the technical setup of how it works, the basic setup includes a monitor powered by a raspberry pi with the [Magic Mirror](https://magicmirror.builders/) software installed on it. The software puts a full screen window of white text on a black background on the display so when a one way mirror is place over it, the white text shines through. Usually this mirror is actually acryllic where one side is see through and the other side is a reflective surface. The open source Magic Mirror software we used has built in and open source thrid party modules that do different things like show the weather, WiC's calendar, as well as the time and date. We also added sensors to the project which include voice command, audio response, a distance sensor, and a gesture sensor. These sensors interact with the modules or other code included on the pi.
