@@ -35,3 +35,18 @@ Our sensor work was based off of Thomas Bachmann's work and uses [his module](ht
 We are able to control the mirror using voice and get a response using audio so we needed a mic and speaker.
 - [USB Microphone](https://www.amazon.com/eBerry-Adjustable-Microphone-Compatible-Recording/dp/B00UZY2YQE/ref=sr_1_6?ie=UTF8&qid=1516681229&sr=8-6&keywords=usb+microphone)
 - [Bluetooth Speaker](https://www.amazon.com/NEWBEING-Wireless-Bluetooth-Handsfree-Slot%EF%BC%88Blue/dp/B0764CDY7Q/ref=sr_1_79?s=electronics&ie=UTF8&qid=1516682104&sr=1-79&keywords=speaker+bluetooth) NOTE: We used a Raspberry Pi 3B which has Bluetooth capability, if using an older version you will probably need a wired speaker.
+
+# Software
+We used a Raspberry Pi 3B, running raspbian. We used the open source Magic Mirror software and it's modules to drive our interface. 
+
+## Setting up the Pi
+First you need to get raspbian onto the SD card if it isn't already. Raspbian's site [has a great tutorial on how to do this](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) that we followed. Plug the SD card into the pi, also hook up the monitor, keyboard and mouse to the pi. Power the pi on and make sure that raspbian boots properly; then you can move on to installing the Magic Mirror software, [using their helplful docuementation](https://github.com/MichMich/MagicMirror#usage). Try to start up the Magic Mirror to make sure it works, de-bugging as necessary. Once you get that done you need to start to install the modules.
+
+## Setting up Magic Mirror Modules
+After setting up the Magic Mirror main software and getting the default setup to run, it's time to customize. We have the modules listed below, follow each link to the module's main page and follow their installation instructions. Any customizations to those modules will be listed below the list.
+
+### List of Modules
+//TODO
+
+### Customizations/Settings for Modules
+//TODO
