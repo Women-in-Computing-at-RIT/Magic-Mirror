@@ -50,3 +50,11 @@ After setting up the Magic Mirror main software and getting the default setup to
 
 ### Customizations/Settings for Modules
 //TODO
+
+# References
+While researching this process we used many references including people who have done this kind of project before. We do this in the hopes that this may help future adventurers down this path.
+
+- [Magic Mirror Central](https://www.magicmirrorcentral.com/making-a-magic-mirror/)
+- [MagPi Magazine - Issue 54](https://www.raspberrypi.org/magpi/issues/54/)
+- [Dylan Pierce blogpost Building MirrorMirror](http://blog.dylanjpierce.com/raspberrypi/magicmirror/tutorial/2015/12/27/build-a-magic-mirror.html)
+- [Xonay Labs Michael Teeuw blog post](http://michaelteeuw.nl/post/80391333672/magic-mirror-part-i-the-idea-the-mirror)
