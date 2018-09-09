@@ -46,7 +46,14 @@ First you need to get raspbian onto the SD card if it isn't already. Raspbian's 
 After setting up the Magic Mirror main software and getting the default setup to run, it's time to customize. We have the modules listed below, follow each link to the module's main page and follow their installation instructions. Any customizations to those modules will be listed below the list.
 
 ### List of Modules
-//TODO
+- Default magic mirror - Mitch Mitch
+- Add in ones for the sensors - link here
+- thobach/MMM-Gestures
+- Puns are in compliments.js
+- clock - our timezone
+- cal - to WiC calendar and multiple calendars bc they didn't have all of them
+- weatherforcast - put in our location
+- config - our modules and where they are on the screen
 
 ### Customizations/Settings for Modules
 //TODO
