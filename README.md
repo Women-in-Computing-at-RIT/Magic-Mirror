@@ -95,3 +95,4 @@ All of the people who worked on this project to make it happen.
 - [Alexia Bernardo](https://github.com/abernardo97)
 - [James Testa]()
 - [Eleanor Post](https://github.com/eap9238)
+- [Regina Locicero - Committee Head](https://github.com/gen1e/)
