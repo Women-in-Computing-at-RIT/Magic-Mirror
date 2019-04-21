@@ -37,7 +37,7 @@ We are able to control the mirror using voice and get a response using audio so 
 - [Bluetooth Speaker](https://www.amazon.com/NEWBEING-Wireless-Bluetooth-Handsfree-Slot%EF%BC%88Blue/dp/B0764CDY7Q/ref=sr_1_79?s=electronics&ie=UTF8&qid=1516682104&sr=1-79&keywords=speaker+bluetooth) NOTE: We used a Raspberry Pi 3B which has Bluetooth capability, if using an older version you will probably need a wired speaker.
 
 # Software
-We used a Raspberry Pi 3B, running raspbian. We used the open source Magic Mirror software and it's modules to drive our interface. 
+We used a Raspberry Pi 3B, running raspbian. We used the open source Magic Mirror software and it's modules to drive our interface.
 
 ## Setting up the Pi
 First you need to get raspbian onto the SD card if it isn't already. Raspbian's site [has a great tutorial on how to do this](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) that we followed. Plug the SD card into the pi, also hook up the monitor, keyboard and mouse to the pi. Power the pi on and make sure that raspbian boots properly; then you can move on to installing the Magic Mirror software, [using their helplful docuementation](https://github.com/MichMich/MagicMirror#usage). Try to start up the Magic Mirror to make sure it works, de-bugging as necessary. Once you get that done you need to start to install the modules.
@@ -45,18 +45,21 @@ First you need to get raspbian onto the SD card if it isn't already. Raspbian's 
 ## Setting up Magic Mirror Modules
 After setting up the Magic Mirror main software and getting the default setup to run, it's time to customize. We have the modules listed below, follow each link to the module's main page and follow their installation instructions. Any customizations to those modules will be listed below the list.
 
-### List of Modules
-- Default magic mirror - Mitch Mitch
-- Add in ones for the sensors - link here
-- thobach/MMM-Gestures
-- Puns are in compliments.js
-- clock - our timezone
-- cal - to WiC calendar and multiple calendars bc they didn't have all of them
-- weatherforcast - put in our location
-- config - our modules and where they are on the screen
+### List of Modules and Configurations
+
+The config.js file in the repo also has the list of modules and configurations for them. That file also indicated where the module is on the screen.
+
+- [Default/Core Magic Mirror software and modules](https://github.com/MichMich/MagicMirror#modules)
+    - We changed the compliments in [compliments.js](https://github.com/MichMich/MagicMirror/tree/master/modules/default/compliments) to mirror related puns
+    - [Default clock module](https://github.com/MichMich/MagicMirror/tree/master/modules/default/clock) changed to our Eastern timezone
+    - [Default calendar](https://github.com/MichMich/MagicMirror/tree/master/modules/default/calendar) has been altered to point to WiC's Google Calendar [as displayed on our website](http://wic.rit.edu/events.php)
+    - We commented out the [default current weather](https://github.com/MichMich/MagicMirror/tree/master/modules/default/currentweather) module as we didn't want it
+    - We updated the [Weather Forecast module](https://github.com/MichMich/MagicMirror/tree/master/modules/default/weatherforecast) for our location
+- The gesture sensors has it's own README in the [MMM-Gesures folder](https://github.com/Women-in-Computing-at-RIT/Magic-Mirror/tree/master/MMM-Gestures) which is essentially copied over from [the original repo](https://github.com/thobach/MMM-Gestures)
 
 ### Customizations/Settings for Modules
-//TODO
+
+Customizations for each module should be located in that module's files here in the repo. Look to the link to each module as listed above for more documentation information.
 
 # References
 While researching this process we used many references including people who have done this kind of project before. We do this in the hopes that this may help future adventurers down this path.
