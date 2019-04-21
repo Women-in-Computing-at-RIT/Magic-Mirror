@@ -1,6 +1,22 @@
 # Magic-Mirror
 WiC Projects Committee 2017-2018 Project.
 
+## Table of Contents
+- [Top](#magic-mirror)
+- [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Hardware](#hardware)
+    - [Frame Materials](#frame-materials)
+    - [Sensor Related Parts](#sensor-related-parts)
+        - [Gesture Parts](#gesture-parts)
+        - [Audio Sensor Parts](#audio-sensor-parts)
+- [Software](#software)
+    - [Setting Up the Pi](#setting-up-the-pi)
+    - [Setting Up Magic Mirror Modules](#setting-up-magic-mirror-modules)
+        - [List of Modules and Configurations](#list-of-modules-and-configurations)
+        - [Customizations/Settings for Modules](#customizationssettings-for-modules)
+- [References](#references)
+
 ## Introduction
 This year's project is a magic mirror or smart mirror. It functions as a mirror as it has a reflective surface but also includes helpful information as you get ready for your day. As for the technical setup of how it works, the basic setup includes a monitor powered by a raspberry pi with the [Magic Mirror](https://magicmirror.builders/) software installed on it. The software puts a full screen window of white text on a black background on the display so when a one way mirror is place over it, the white text shines through. Usually this mirror is actually acrylic where one side is see through and the other side is a reflective surface. The open source Magic Mirror software we used has built in and open source third party modules that do different things like show the weather, WiC's calendar, as well as the time and date. We also added sensors to the project which include voice command, audio response, a distance sensor, and a gesture sensor. These sensors interact with the modules or other code included on the pi.
 
@@ -46,7 +62,6 @@ First you need to get raspbian onto the SD card if it isn't already. Raspbian's 
 After setting up the Magic Mirror main software and getting the default setup to run, it's time to customize. We have the modules listed below, follow each link to the module's main page and follow their installation instructions. Any customizations to those modules will be listed below the list.
 
 ### List of Modules and Configurations
-
 The config.js file in the repo also has the list of modules and configurations for them. That file also indicated where the module is on the screen.
 
 - [Default/Core Magic Mirror software and modules](https://github.com/MichMich/MagicMirror#modules)
@@ -58,7 +73,6 @@ The config.js file in the repo also has the list of modules and configurations f
 - The gesture sensors has it's own README in the [MMM-Gesures folder](https://github.com/Women-in-Computing-at-RIT/Magic-Mirror/tree/master/MMM-Gestures) which is essentially copied over from [the original repo](https://github.com/thobach/MMM-Gestures)
 
 ### Customizations/Settings for Modules
-
 Customizations for each module should be located in that module's files here in the repo. Look to the link to each module as listed above for more documentation information.
 
 # References
