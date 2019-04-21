@@ -16,6 +16,7 @@ WiC Projects Committee 2017-2018 Project.
         - [List of Modules and Configurations](#list-of-modules-and-configurations)
         - [Customizations/Settings for Modules](#customizationssettings-for-modules)
 - [References](#references)
+- [Contributors](#contributors)
 
 ## Introduction
 This year's project is a magic mirror or smart mirror. It functions as a mirror as it has a reflective surface but also includes helpful information as you get ready for your day. As for the technical setup of how it works, the basic setup includes a monitor powered by a raspberry pi with the [Magic Mirror](https://magicmirror.builders/) software installed on it. The software puts a full screen window of white text on a black background on the display so when a one way mirror is place over it, the white text shines through. Usually this mirror is actually acrylic where one side is see through and the other side is a reflective surface. The open source Magic Mirror software we used has built in and open source third party modules that do different things like show the weather, WiC's calendar, as well as the time and date. We also added sensors to the project which include voice command, audio response, a distance sensor, and a gesture sensor. These sensors interact with the modules or other code included on the pi.
@@ -82,3 +83,15 @@ While researching this process we used many references including people who have
 - [MagPi Magazine - Issue 54](https://www.raspberrypi.org/magpi/issues/54/)
 - [Dylan Pierce blogpost Building MirrorMirror](http://blog.dylanjpierce.com/raspberrypi/magicmirror/tutorial/2015/12/27/build-a-magic-mirror.html)
 - [Xonay Labs Michael Teeuw blog post](http://michaelteeuw.nl/post/80391333672/magic-mirror-part-i-the-idea-the-mirror)
+
+# Contributors
+
+All of the people who worked on this project to make it happen.
+
+- [Ariel Viggiano](https://github.com/aviggiano836)
+- [Kevin Barnett](https://github.com/pdfkpb)
+- [Cara Steinberg](https://github.com/caralin3)
+- [Melissa Gould](https://github.com/mag8224)
+- [Alexia Bernardo](https://github.com/abernardo97)
+- [James Testa]()
+- [Eleanor Post](https://github.com/eap9238)
